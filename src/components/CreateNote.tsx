@@ -1,11 +1,10 @@
 import { Button, Form, Alert } from "react-bootstrap";
 import { useRef, useState } from "react";
 import { Note } from "../models/note.model";
-import React from "react";
 
 interface CreateNoteProps {
   notes: Note[];
-  setNotes: React.Dispatch<SetStateAction<Note[]>>;
+  setNotes: React.Dispatch<React.SetStateAction<Note[]>>;
 }
 
 const CreateNote = ({ notes, setNotes }: CreateNoteProps) => {
