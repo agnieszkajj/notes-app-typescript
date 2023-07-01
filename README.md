@@ -10,7 +10,8 @@ An innovative note-taking app that empowers users to effortlessly create, save, 
 ## Tech Stack
 
  React\
- Typescript
+ Typescript\
+ React Bootstrap
  
 
 
