@@ -1,6 +1,6 @@
 import { SetStateAction } from "react";
-import { Note } from "../models/note.model";
-import Notes from "./Notes";
+import { Note } from "../../models/note.model";
+import Notes from "../notes/Notes";
 
 interface NotesListProps {
   notes: Note[];

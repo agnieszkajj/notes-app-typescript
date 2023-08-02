@@ -1,4 +1,4 @@
-import { Note } from "../models/note.model";
+import { Note } from "../../models/note.model";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
@@ -9,7 +9,7 @@ interface NotesProps {
 
 const Notes = ({ note, handleDelete }: NotesProps) => {
   return (
-    <div className="mb-3">
+    <div className="mb-3" data-testid="note-container">
       <Card style={{ backgroundColor: note.color }}>
         <Card.Body>
           <Card.Title>{note.title}</Card.Title>

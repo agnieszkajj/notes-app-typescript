@@ -1,6 +1,6 @@
 import { Button, Form, Alert } from "react-bootstrap";
 import { useRef, useState } from "react";
-import { Note } from "../models/note.model";
+import { Note } from "../../models/note.model";
 
 interface CreateNoteProps {
   notes: Note[];

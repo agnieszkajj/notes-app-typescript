@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Note } from "./models/note.model";
 import { Container, Row, Col } from "react-bootstrap";
-import Header from "./components/Header";
-import NotesList from "./components/NotesList";
-import CreateNote from "./components/CreateNote";
+import Header from "./components/header/Header";
+import NotesList from "./components/notesList/NotesList";
+import CreateNote from "./components/createNote/CreateNote";
 
 function App() {
   const [notes, setNotes] = useState<Note[]>([
